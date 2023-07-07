@@ -9,7 +9,7 @@ public class Main {
 		
 		int onesDigit = B % 10;
 		int tensDigit = (B % 100)/10;
-		int hundredDigit = (B % 1000)/100;
+		int hundredDigit = B /100;
 		
 		System.out.println(A * onesDigit);
 		System.out.println(A * tensDigit);
